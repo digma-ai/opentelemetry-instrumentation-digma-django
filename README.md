@@ -1,5 +1,5 @@
 # opentelemetry-instrumenation-digma
-[![PyPI version](https://badge.fury.io/py/opentelemetry-instrumentation-digma.svg)](https://badge.fury.io/py/opentelemetry-instrumentation-digma-django)
+[![PyPI version](https://badge.fury.io/py/opentelemetry-instrumentation-digma-django.svg)](https://badge.fury.io/py/opentelemetry-instrumentation-digma-django)
 
 This package provides instrumentation for additional span attributes provided on top of the [opentelmetery-instrumentation-django](https://pypi.org/project/opentelemetry-instrumentation-django/) package. 
 
