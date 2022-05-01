@@ -9,6 +9,7 @@ In order to be able to effectively glean code-object based insights for continuo
 ```bash
 pip install opentelemetry-instrumentation-digma-django
 ```
+
 Via pip, or add to your requirements/toml file.
 
 ### Building the package from source
