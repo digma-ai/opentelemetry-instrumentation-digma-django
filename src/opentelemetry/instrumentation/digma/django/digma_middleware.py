@@ -12,6 +12,8 @@ class _DigmaMiddleware(MiddlewareMixin):
             if (view_func):
                 span.set_attribute(SpanAttributes.CODE_NAMESPACE, view_func.__module__)
                 span.set_attribute(SpanAttributes.CODE_FUNCTION, view_func.__qualname__)
+                span.set_attribute(SpanAttributes.CODE_FILEPATH, view_func.__code__.co_filename)
+                span.set_attribute(SpanAttributes.CODE_LINENO, view_func.__code__.co_firstlineno)
 
 
     
