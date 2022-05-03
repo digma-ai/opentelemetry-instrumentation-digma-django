@@ -10,7 +10,7 @@ In order to be able to effectively glean code-object based insights for continuo
 pip install opentelemetry-instrumentation-digma-django
 ```
 
-Via pip, or add to your requirements/toml file.
+Via pip, or add to your requirements/toml file and update your environment.
 
 ### Building the package from source
 
