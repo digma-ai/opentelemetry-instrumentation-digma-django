@@ -3,7 +3,7 @@ from django import VERSION as django_version
 from django.conf import settings
 from opentelemetry.instrumentation.django.environment_variables import OTEL_PYTHON_DJANGO_INSTRUMENT
 from opentelemetry.instrumentation.django.middleware import _DjangoMiddleware
-from opentelemetry.instrumentation.digma.digma_middleware import _DigmaMiddleware
+from opentelemetry.instrumentation.digma.django.digma_middleware import _DigmaMiddleware
 
 DJANGO_2_0 = django_version >= (2, 0)
 
